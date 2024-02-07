@@ -29,3 +29,29 @@ crossbtn.addEventListener('click', () => {
     // Tampilkan slide pertama saat halaman dimuat
     showSlide(currentIndex);
 
+    //berita terbaru
+    $(document).ready(function(){
+        // News Slider (for sliding multiple items at a time)
+        $('.news-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    
+        // Custom Navigation
+        $('.slide-prev').on('click', function(){
+            $('.news-slider').slick('slickPrev');
+        });
+    
+        $('.slide-next').on('click', function(){
+            $('.news-slider').slick('slickNext');
+        });
+    });
