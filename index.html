@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIMATIF</title>
     <link rel="icon" href="images/himatif.png" type="image/png">
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media_queries.css">
     <script src="https://kit.fontawesome.com/3304249255.js" crossorigin="anonymous"></script>
@@ -29,9 +30,10 @@
                         <i class="fa-solid fa-x cross-icon "></i>
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">Tentang</a></li>
-                        <li><a href="#services">Service</a></li>
+                        <li><a href="#services">Berita</a></li>
                         <li><a href="#why-us">Sejarah</a></li>
-                        <li><a href="#team">Team</a></li>
+                        <li><a href="#services">Departemen</a></li>
+                        <li><a href="#team">Kontak</a></li>
                     </ul>
                 </div>
                 <i class="fa-solid fa-bars menu"></i>
@@ -56,7 +58,44 @@
         </div>
     </div>
 </div>
+<div class="container_berita">
+    <div class="header_berita">
+        <h1>Berita Terbaru</h1>
+    </div>
+</div>
+
+<div class="slider-container">
+    <div class="news-slider">
+        <div class="news-item">
+            <div class="news-content">
+                <img src="images/bg1.jpg" alt="Penemuan Terbaru">
+                <h2>Penemuan Terbaru di Bidang Sains</h2>
+                <p>Para ilmuwan baru-baru ini mengumumkan penemuan revolusioner dalam bidang sains. Penemuan ini dapat mengubah paradigma kita tentang alam semesta.</p>
+            </div>
+        </div>
+        <div class="news-item">
+            <div class="news-content">
+                <img src="images/bg1.jpg" alt="Peluncuran Produk Terbaru">
+                <h2>Peluncuran Produk Teknologi Terbaru</h2>
+                <p>Perusahaan teknologi terkemuka hari ini meluncurkan produk terbarunya yang dijuluki sebagai terobosan di dunia teknologi. Produk ini diharapkan akan mengubah cara kita berinteraksi dengan teknologi sehari-hari.</p>
+            </div>
+        </div>
+        <div class="news-item">
+            <div class="news-content">
+                <img src="images/bg1.jpg" alt="Kisah Inspiratif Seorang Pemuda">
+                <h2>Kisah Inspiratif Seorang Pemuda</h2>
+                <p>Seorang pemuda mengatasi segala rintangan dan mencapai kesuksesan besar dalam perjalanannya. Kisahnya menjadi inspirasi bagi banyak orang yang bermimpi besar.</p>
+            </div>
+        </div>
+        <!-- Tambahkan berita lainnya sesuai kebutuhan -->
+    </div>
     
+
+    <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="slide-next"><i class="fas fa-chevron-right"></i></button>
+</div>
+
+
     <div id="about" class="about-us">
         <div class="header-text ">
             <h2>Apa itu <span class="blue-color">HIMATIF ?</span></h2>
@@ -169,7 +208,10 @@
                 <img src="images/s1.png" alt="">
                 <h3>PRESIDIUM</h3>
                 <p>Fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
-                <div class="read-more">Read More</div>
+                <div class="read-more">
+                    <a href="presidium.html">Read More</a>
+                </div>
+                
             </div>
         </div>
         <div class="service-cards-section flex padding-horizontal">
@@ -181,7 +223,9 @@
                 <p>fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     The
                     point of using</p>
-                <div class="read-more">Read More</div>
+                <div class="read-more">
+                    <a href="internal.html">Read More</a>
+                </div>
             </div>
             <div class="service-card">
                 <img src="images/s3.png" alt="">
@@ -189,7 +233,9 @@
                 <p>fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     The
                     point of using</p>
-                <div class="read-more">Read More</div>
+                <div class="read-more">
+                    <a href="medkominfo.html">Read More</a>
+                </div>
             </div>
             <div class="service-card">
                 <img src="images/s3.png" alt="">
@@ -197,7 +243,9 @@
                 <p>fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     The
                     point of using</p>
-                <div class="read-more">Read More</div>
+                <div class="read-more">
+                    <a href="eksternal.html">Read More</a>
+                </div>
             </div>
             <div class="service-card">
                 <img src="images/s3.png" alt="">
@@ -205,7 +253,9 @@
                 <p>fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     The
                     point of using</p>
-                <div class="read-more">Read More</div>
+                <div class="read-more">
+                    <a href="minbak.html">Read More</a>
+                </div>
             </div>
             <div class="service-card">
                 <img src="images/s3.png" alt="">
@@ -213,77 +263,13 @@
                 <p>fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     The
                     point of using</p>
-                <div class="read-more">Read More</div>
-            </div>
-        </div>
-        <button class="primary-btn">View All</button>
-    </div>
-    <div id="team" class="our-team flex-column">
-        <h2>Our <span class="blue-color">Team</span></h2>
-        <div class="team-cards-section flex">
-            <div class="team-card flex-column">
-                <img src="images/team-1.jpg" alt="">
-                <div class="team-name">
-                    <h4 class="blue-color">Joseph Brown</h4>
-                    <p>Marketing Head</p>
-                </div>
-                <div class="social-media">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="team-card flex-column"> <img src="images/team-2.jpg" alt="">
-                <div class="team-name">
-                    <h4 class="blue-color">Nancy White</h4>
-                    <p>Marketing Head</p>
-                </div>
-                <div class="social-media">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="team-card flex-column"> <img src="images/team-3.jpg" alt="">
-                <div class="team-name">
-                    <h4 class="blue-color">Earl Martinez</h4>
-                    <p>Marketing Head</p>
-                </div>
-                <div class="social-media">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="team-card flex-column"> <img src="images/team-4.jpg" alt="">
-                <div class="team-name">
-                    <h4 class="blue-color">Josephine Allard</h4>
-                    <p>Marketing Head</p>
-                </div>
-                <div class="social-media">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <div class="read-more">
+                    <a href="kaderisasi.html">Read More</a>
                 </div>
             </div>
         </div>
     </div>
-    <div id="customers" class="customers flex-column">
-        <div class="header-text">
-            <h2>What says our <span class="blue-color">Customers</span></h2>
-        </div>
-       
-        
-
-    </div>
+   
     <footer>
         <div class="footer flex justify-space-evenly">
             <div class="address flex-column">
@@ -327,6 +313,8 @@
     <div class="sub-footer ">
         <p>© 2023 All Rights Reserved By Free Html Templates</p>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
