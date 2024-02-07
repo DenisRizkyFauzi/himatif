@@ -14,6 +14,10 @@
     .service-cards-section {
         padding: 0px 50px;
     }
+    .customer-card img {
+        left: 39%;
+        
+    }
 }
 
 @media screen and (max-width:769px) {
@@ -83,6 +87,10 @@
     .main-image img {
         margin-top: 30px;
         width: 100%;
+    }
+    .customer-card img {
+        left: 32%;
+        
     }
     
 
@@ -213,6 +221,10 @@
 
     .customer-card {
         width: 100%;
+    }
+    .customer-card img {
+        left: 27%;
+        
     }
 
     footer {
