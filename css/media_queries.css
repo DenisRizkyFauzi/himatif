@@ -159,7 +159,7 @@
     }
 
     .main-page {
-        height: 200vh;
+        height: 78vh;
     }
 
     .main-page-content {
@@ -168,8 +168,8 @@
     }
 
     .main-image img {
-        margin-top: 30px;
         width: 100%;
+        margin-bottom: 50px;
     }
 
     .our-services {
@@ -223,7 +223,11 @@
         width: 100%;
     }
     .customer-card img {
-        left: 30%;
+        left: 37%;
+        
+    }
+    .aspirasi iframe {
+        width: 90%;
         
     }
 
